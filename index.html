@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game Nest Moro | Premium Gaming Zone in Golden Market, Moro</title>
+  <meta name="description" content="Game Nest Moro is a premium gaming zone in Golden Market, Moro. Play PS4, Xbox and steering racing with friends in a comfortable RGB gaming environment. Book your seat today.">
+  <meta name="theme-color" content="#07070c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Game Nest Moro | Play. Compete. Dominate.">
+  <meta property="og:description" content="Premium gaming experience in Golden Market, Moro. PS4, Xbox, steering racing and affordable packages.">
+
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Fonts: Chakra Petch (headings) + Barlow (text). The site still looks fine offline thanks to fallback fonts. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Chakra+Petch:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <!-- ===== Reusable SVG icons ===== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-crown" viewBox="0 0 64 64">
+        <path d="M8 46 4 18l16 14 12-20 12 20 16-14-4 28z"/>
+        <path d="M10 54h44"/>
+      </symbol>
+      <symbol id="i-ps" viewBox="0 0 64 64">
+        <path d="M18 16h28c5 0 8 3 9 8l4 18c1 6-4 9-8 5l-6-7H19l-6 7c-4 4-9 1-8-5l4-18c1-5 4-8 9-8z"/>
+        <path d="M14 26h8M18 22v8"/>
+        <rect x="26" y="20" width="12" height="6" rx="2"/>
+        <circle cx="25" cy="34" r="3"/>
+        <circle cx="39" cy="34" r="3"/>
+        <circle cx="46" cy="22" r="1.4" fill="currentColor" stroke="none"/>
+        <circle cx="50" cy="26" r="1.4" fill="currentColor" stroke="none"/>
+        <circle cx="46" cy="30" r="1.4" fill="currentColor" stroke="none"/>
+        <circle cx="42" cy="26" r="1.4" fill="currentColor" stroke="none"/>
+      </symbol>
+      <symbol id="i-xbox" viewBox="0 0 64 64">
+        <path d="M18 16h28c5 0 8 3 9 8l4 18c1 6-4 9-8 5l-6-7H19l-6 7c-4 4-9 1-8-5l4-18c1-5 4-8 9-8z"/>
+        <circle cx="20" cy="25" r="3.5"/>
+        <circle cx="38" cy="34" r="3.5"/>
+        <path d="M22 34h8M26 30v8"/>
+        <circle cx="32" cy="24" r="2.6"/>
+        <circle cx="46" cy="21" r="1.4" fill="currentColor" stroke="none"/>
+        <circle cx="50" cy="25" r="1.4" fill="currentColor" stroke="none"/>
+        <circle cx="46" cy="29" r="1.4" fill="currentColor" stroke="none"/>
+        <circle cx="42" cy="25" r="1.4" fill="currentColor" stroke="none"/>
+      </symbol>
+      <symbol id="i-wheel" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="24"/>
+        <circle cx="32" cy="32" r="6"/>
+        <path d="M8 32h18M38 32h18M32 38v18"/>
+        <path d="M27 8h10" stroke-width="4"/>
+      </symbol>
+      <symbol id="i-monitor" viewBox="0 0 64 64">
+        <rect x="6" y="10" width="52" height="34" rx="4"/>
+        <path d="M24 54h16M32 44v10"/>
+        <path d="M28 20l12 7-12 7z"/>
+      </symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24">
+        <path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z"/>
+        <path d="M9 9.5c.2 2.6 2.9 5.3 5.5 5.5l1.3-1.3-1.9-1-.9.7c-.7-.3-1.6-1.2-1.9-1.9l.7-.9-1-1.9z" fill="currentColor" stroke="none"/>
+      </symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24">
+        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+      </symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24">
+        <rect x="2" y="2" width="20" height="20" rx="5"/>
+        <path d="M16 11.4A4 4 0 1 1 12.6 8 4 4 0 0 1 16 11.4z"/>
+        <path d="M17.5 6.5h.01"/>
+      </symbol>
+      <symbol id="i-youtube" viewBox="0 0 24 24">
+        <path d="M22.5 6.4a2.8 2.8 0 0 0-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.5a2.8 2.8 0 0 0-1.9 2A29 29 0 0 0 1 11.8a29 29 0 0 0 .5 5.3A2.8 2.8 0 0 0 3.4 19c1.7.5 8.6.5 8.6.5s6.9 0 8.6-.5a2.8 2.8 0 0 0 1.9-2 29 29 0 0 0 .5-5.2 29 29 0 0 0-.5-5.4z"/>
+        <path d="M9.8 15l5.7-3.3L9.8 8.5z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="#home" class="logo" aria-label="Game Nest Moro - home">
+        <svg class="icon logo-crown" aria-hidden="true"><use href="#i-crown"/></svg>
+        <span class="logo-text">
+          <span class="logo-main">GAME NEST</span>
+          <span class="logo-sub">MORO</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="nav-menu" class="nav-menu" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#gaming">Gaming</a></li>
+          <li><a class="nav-link" href="#packages">Packages</a></li>
+          <li><a class="nav-link" href="#facilities">Facilities</a></li>
+          <li><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-primary btn-sm nav-cta" href="#booking">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="orb orb-blue"></span>
+        <span class="orb orb-purple"></span>
+        <span class="orb orb-red"></span>
+        <div class="hero-grid"></div>
+        <svg class="icon float f1"><use href="#i-ps"/></svg>
+        <svg class="icon float f2"><use href="#i-xbox"/></svg>
+        <svg class="icon float f3"><use href="#i-wheel"/></svg>
+      </div>
+
+      <div class="container hero-inner">
+        <h1 class="hero-title">
+          <span class="hero-title-main">GAME NEST</span>
+          <span class="hero-title-loc">MORO</span>
+        </h1>
+
+        <p class="hero-tagline">
+          <span class="t-blue">PLAY.</span>
+          <span class="t-purple">COMPETE.</span>
+          <span class="t-red">DOMINATE.</span>
+        </p>
+        <p class="hero-sub">Premium Gaming Experience in Moro</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="#booking">Book Your Seat</a>
+          <a class="btn btn-outline btn-lg" href="#gaming">Explore Games</a>
+        </div>
+
+        <ul class="hero-tiles">
+          <li><svg class="icon" aria-hidden="true"><use href="#i-ps"/></svg><span>PS4</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-xbox"/></svg><span>Xbox</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-wheel"/></svg><span>Steering Racing</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-monitor"/></svg><span>Gaming Stations</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <h2 class="section-title">Welcome to Game Nest Moro</h2>
+          <p>Game Nest is a modern gaming zone in Golden Market, Moro, made for friends and gamers who want more than a game at home. Bring your crew, pick your platform and play in a space that is comfortable, lively and built around the fun of gaming together.</p>
+          <p>From console gaming on PS4 and Xbox to a steering-wheel racing setup, every station delivers a premium gaming experience with large displays, comfortable seating and an RGB atmosphere. Whether you are here for a relaxed match or a competitive showdown, our friendly environment and affordable packages make it easy to jump in and play.</p>
+          <a class="btn btn-primary" href="#packages">See Packages</a>
+        </div>
+
+        <div class="card accent-purple about-card reveal">
+          <ul class="check-list">
+            <li><strong>Premium gaming experience</strong><span>Quality setups made for serious fun.</span></li>
+            <li><strong>Comfortable gaming stations</strong><span>Seating and screens arranged for long sessions.</span></li>
+            <li><strong>PS4 gaming</strong><span>Popular PlayStation titles on large displays.</span></li>
+            <li><strong>Xbox gaming</strong><span>Competitive multiplayer with your friends.</span></li>
+            <li><strong>Steering racing</strong><span>Wheel-based racing that feels the part.</span></li>
+            <li><strong>Friendly environment</strong><span>A welcoming space for every kind of gamer.</span></li>
+            <li><strong>Affordable packages</strong><span>Simple sessions that fit your budget.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GAMING ================= -->
+    <section class="section section-alt" id="gaming">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Pick Your Platform</h2>
+          <p class="section-lead">Grab a controller or take the wheel. Three ways to play, all in one place.</p>
+        </div>
+
+        <div class="card-grid grid-3">
+          <article class="card accent-blue game-card reveal">
+            <div class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-ps"/></svg></div>
+            <h3 class="card-title">PS4</h3>
+            <p>Enjoy popular PlayStation games with high-quality displays and comfortable seating.</p>
+            <a class="btn btn-primary" href="#booking" data-book data-type="PS4">Book Now</a>
+          </article>
+
+          <article class="card accent-purple game-card reveal">
+            <div class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-xbox"/></svg></div>
+            <h3 class="card-title">Xbox</h3>
+            <p>Experience Xbox gaming with friends and competitive multiplayer gameplay.</p>
+            <a class="btn btn-primary" href="#booking" data-book data-type="Xbox">Book Now</a>
+          </article>
+
+          <article class="card accent-red game-card reveal">
+            <div class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-wheel"/></svg></div>
+            <h3 class="card-title">Steering Racing</h3>
+            <p>Enjoy an immersive racing experience using a steering-wheel setup.</p>
+            <a class="btn btn-primary" href="#booking" data-book data-type="Steering Racing">Book Now</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PACKAGES ================= -->
+    <section class="section" id="packages">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Packages Built for Every Player</h2>
+          <p class="section-lead">Sessions for solo players, friends and racers. Ask us about current rates when you book.</p>
+        </div>
+
+        <!--
+          EDIT PRICES HERE: replace every "Rs. XXX" below with your real price.
+          Package details (the bullet points) can be edited the same way.
+        -->
+        <div class="card-grid grid-4">
+          <article class="card accent-blue price-card reveal">
+            <h3 class="price-name">Gaming Session</h3>
+            <p class="price-sub">1 Hour Gaming</p>
+            <p class="price"><span>Rs. XXX</span><small>per hour</small></p>
+            <ul class="price-list">
+              <li>PS4 or Xbox station</li>
+              <li>Large display</li>
+              <li>Comfortable seating</li>
+            </ul>
+            <a class="btn btn-outline" href="#booking" data-book data-package="Gaming Session">Book Now</a>
+          </article>
+
+          <article class="card accent-purple price-card reveal">
+            <h3 class="price-name">Friends Package</h3>
+            <p class="price-sub">2–3 Players</p>
+            <p class="price"><span>Rs. XXX</span><small>per session</small></p>
+            <ul class="price-list">
+              <li>Play together on one station</li>
+              <li>Multiplayer games</li>
+              <li>Friendly, relaxed atmosphere</li>
+            </ul>
+            <a class="btn btn-outline" href="#booking" data-book data-package="Friends Package" data-players="2">Book Now</a>
+          </article>
+
+          <article class="card accent-red price-card reveal">
+            <h3 class="price-name">Racing Package</h3>
+            <p class="price-sub">Steering Racing Session</p>
+            <p class="price"><span>Rs. XXX</span><small>per session</small></p>
+            <ul class="price-list">
+              <li>Steering-wheel racing setup</li>
+              <li>Immersive racing games</li>
+              <li>Large display</li>
+            </ul>
+            <a class="btn btn-outline" href="#booking" data-book data-package="Racing Package" data-type="Steering Racing">Book Now</a>
+          </article>
+
+          <article class="card accent-purple price-card featured reveal">
+            <span class="badge">Featured</span>
+            <h3 class="price-name">Premium Package</h3>
+            <p class="price-sub">Extended Gaming Session</p>
+            <p class="price"><span>Rs. XXX</span><small>per session</small></p>
+            <ul class="price-list">
+              <li>Longer play time</li>
+              <li>Choose your favourite platform</li>
+              <li>Best for tournaments and game nights</li>
+            </ul>
+            <a class="btn btn-primary" href="#booking" data-book data-package="Premium Package">Book Now</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FACILITIES ================= -->
+    <section class="section section-alt" id="facilities">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Everything You Need to Play</h2>
+          <p class="section-lead">The gear, the comfort and the atmosphere, ready when you walk in.</p>
+        </div>
+
+        <div class="card-grid grid-4">
+          <article class="card accent-blue facility reveal">
+            <div class="icon-badge"><span class="emoji" aria-hidden="true">🎮</span></div>
+            <h3 class="card-title">PS4</h3>
+            <p>Popular PlayStation titles.</p>
+          </article>
+          <article class="card accent-purple facility reveal">
+            <div class="icon-badge"><span class="emoji" aria-hidden="true">🎮</span></div>
+            <h3 class="card-title">Xbox</h3>
+            <p>Multiplayer fun with friends.</p>
+          </article>
+          <article class="card accent-red facility reveal">
+            <div class="icon-badge"><span class="emoji" aria-hidden="true">🏎️</span></div>
+            <h3 class="card-title">Steering Racing</h3>
+            <p>A real wheel-based racing setup.</p>
+          </article>
+          <article class="card accent-blue facility reveal">
+            <div class="icon-badge"><span class="emoji" aria-hidden="true">🖥️</span></div>
+            <h3 class="card-title">Large Displays</h3>
+            <p>Big, sharp screens for every game.</p>
+          </article>
+          <article class="card accent-purple facility reveal">
+            <div class="icon-badge"><span class="emoji" aria-hidden="true">❄️</span></div>
+            <h3 class="card-title">Air Conditioning</h3>
+            <p>Stay cool while the game heats up.</p>
+          </article>
+          <article class="card accent-red facility reveal">
+            <div class="icon-badge"><span class="emoji" aria-hidden="true">💡</span></div>
+            <h3 class="card-title">RGB Gaming Environment</h3>
+            <p>Neon lighting that sets the mood.</p>
+          </article>
+          <article class="card accent-blue facility reveal">
+            <div class="icon-badge"><span class="emoji" aria-hidden="true">🪑</span></div>
+            <h3 class="card-title">Comfortable Seating</h3>
+            <p>Made for long gaming sessions.</p>
+          </article>
+          <article class="card accent-purple facility reveal">
+            <div class="icon-badge"><span class="emoji" aria-hidden="true">🌐</span></div>
+            <h3 class="card-title">Internet</h3>
+            <p>Stay connected for online play.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Inside the Nest</h2>
+          <p class="section-lead">A look at the gear and the vibe. Tap any image to view it larger.</p>
+        </div>
+
+        <!--
+          These are placeholder images. To use real photos, save them in the images/ folder
+          and change the src below (for example images/gallery-1.jpg).
+        -->
+        <div class="gallery-grid">
+          <button class="gallery-item wide reveal" type="button" data-caption="PlayStation Zone">
+            <img src="images/gallery-1.svg" alt="Neon illustration of a PlayStation-style controller" width="800" height="600" loading="lazy">
+            <span class="gallery-caption">PlayStation Zone</span>
+          </button>
+          <button class="gallery-item reveal" type="button" data-caption="Xbox Zone">
+            <img src="images/gallery-2.svg" alt="Neon illustration of an Xbox-style controller" width="800" height="600" loading="lazy">
+            <span class="gallery-caption">Xbox Zone</span>
+          </button>
+          <button class="gallery-item reveal" type="button" data-caption="Racing Rig">
+            <img src="images/gallery-3.svg" alt="Neon illustration of a racing steering wheel" width="800" height="600" loading="lazy">
+            <span class="gallery-caption">Racing Rig</span>
+          </button>
+          <button class="gallery-item reveal" type="button" data-caption="Large Displays">
+            <img src="images/gallery-4.svg" alt="Neon illustration of a large gaming display" width="800" height="600" loading="lazy">
+            <span class="gallery-caption">Large Displays</span>
+          </button>
+          <button class="gallery-item reveal" type="button" data-caption="RGB Gaming Lounge">
+            <img src="images/gallery-5.svg" alt="Neon illustration of a gaming chair surrounded by RGB lights" width="800" height="600" loading="lazy">
+            <span class="gallery-caption">RGB Gaming Lounge</span>
+          </button>
+          <button class="gallery-item wide reveal" type="button" data-caption="Compete &amp; Win">
+            <img src="images/gallery-6.svg" alt="Neon illustration of a trophy with a crown" width="800" height="600" loading="lazy">
+            <span class="gallery-caption">Compete &amp; Win</span>
+          </button>
+        </div>
+      </div>
+
+      <dialog class="lightbox" id="lightbox" aria-label="Image preview">
+        <button class="lightbox-close" type="button" aria-label="Close preview">&times;</button>
+        <img src="" alt="">
+        <p class="lightbox-caption"></p>
+      </dialog>
+    </section>
+
+    <!-- ================= BOOKING ================= -->
+    <section class="section section-alt" id="booking">
+      <div class="container booking-grid">
+        <div class="booking-info reveal">
+          <h2 class="section-title">Book Your Seat</h2>
+          <p class="section-lead">Tell us when you are coming and what you want to play, then send it on WhatsApp to lock in your seat.</p>
+
+          <ol class="steps">
+            <li>Fill in the booking form.</li>
+            <li>Send the request on WhatsApp.</li>
+            <li>Get your seat confirmed.</li>
+          </ol>
+
+          <button class="btn btn-whatsapp btn-lg" type="button" data-whatsapp-booking>
+            <svg class="icon" width="22" height="22" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            WhatsApp Booking
+          </button>
+        </div>
+
+        <div class="card accent-blue form-card reveal">
+          <!-- Netlify Forms: this form is also picked up by Netlify automatically after deploy (optional). -->
+          <form id="booking-form" name="booking" method="POST" data-netlify="true" novalidate>
+            <input type="hidden" name="form-name" value="booking">
+
+            <div class="form-grid">
+              <div class="field">
+                <label for="b-name">Customer Name</label>
+                <input id="b-name" name="name" type="text" autocomplete="name" placeholder="Your full name" required>
+                <p class="field-error" id="e-b-name" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="b-whatsapp">WhatsApp Number</label>
+                <input id="b-whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="0300 1234567" required>
+                <p class="field-error" id="e-b-whatsapp" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="b-type">Gaming Type</label>
+                <select id="b-type" name="gaming_type" required>
+                  <option value="" selected disabled>Select gaming type</option>
+                  <option value="PS4">PS4</option>
+                  <option value="Xbox">Xbox</option>
+                  <option value="Steering Racing">Steering Racing</option>
+                  <option value="Not sure yet">Not sure yet</option>
+                </select>
+                <p class="field-error" id="e-b-type" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="b-players">Number of Players</label>
+                <select id="b-players" name="players" required>
+                  <option value="" selected disabled>Select players</option>
+                  <option value="1">1 player</option>
+                  <option value="2">2 players</option>
+                  <option value="3">3 players</option>
+                  <option value="4">4 players</option>
+                  <option value="5+">5 or more</option>
+                </select>
+                <p class="field-error" id="e-b-players" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="b-date">Date</label>
+                <input id="b-date" name="date" type="date" required>
+                <p class="field-error" id="e-b-date" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="b-time">Time</label>
+                <input id="b-time" name="time" type="time" required>
+                <p class="field-error" id="e-b-time" role="alert"></p>
+              </div>
+
+              <div class="field field-full">
+                <label for="b-message">Message <span class="optional">(optional)</span></label>
+                <textarea id="b-message" name="message" rows="3" maxlength="400" placeholder="Anything we should know? Favourite games, group size, special requests..."></textarea>
+              </div>
+            </div>
+
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Submit Booking</button>
+          </form>
+
+          <div class="form-success" id="booking-success" tabindex="-1" hidden>
+            <div class="success-mark" aria-hidden="true">✔</div>
+            <h3 class="card-title">Booking request ready, <span id="success-name">gamer</span>!</h3>
+            <p>Send it on WhatsApp so we can confirm your seat.</p>
+            <ul class="summary" id="success-summary"></ul>
+            <div class="success-actions">
+              <button class="btn btn-whatsapp" type="button" id="success-whatsapp">
+                <svg class="icon" width="20" height="20" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+                Send on WhatsApp
+              </button>
+              <button class="btn btn-outline" type="button" id="new-booking">New Booking</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Find Game Nest Moro</h2>
+          <p class="section-lead">Drop by, call us or message us on WhatsApp.</p>
+        </div>
+
+        <!--
+          EDIT CONTACT DETAILS in app.js (CONFIG at the top). The text below is only a fallback.
+        -->
+        <div class="contact-grid">
+          <article class="card accent-red location-card reveal">
+            <svg class="map-art" viewBox="0 0 400 200" role="img" aria-label="Map illustration of Golden Market, Moro">
+              <defs>
+                <linearGradient id="mapfade" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#8b3dff" stop-opacity=".28"/>
+                  <stop offset="1" stop-color="#00d4ff" stop-opacity=".05"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="200" rx="14" fill="url(#mapfade)"/>
+              <path d="M0 50H400M0 110H400M0 160H400M70 0V200M150 0V200M270 0V200M340 0V200" stroke="#8296ff" stroke-opacity=".25" fill="none"/>
+              <path d="M0 145C120 125 190 45 400 65" stroke="#00d4ff" stroke-opacity=".7" stroke-width="3" fill="none"/>
+              <ellipse class="pulse" cx="200" cy="120" rx="16" ry="6" fill="none" stroke="#ff2d55" stroke-width="2"/>
+              <path d="M200 118C186 100 180 90 180 80a20 20 0 0 1 40 0c0 10-6 20-20 38z" fill="#ff2d55"/>
+              <circle cx="200" cy="80" r="7" fill="#07070c"/>
+            </svg>
+
+            <h3 class="card-title">GAME NEST MORO</h3>
+            <p class="location-line"><span aria-hidden="true">📍</span> <span data-config="address">Golden Market, Moro</span></p>
+            <a class="btn btn-outline" href="#" data-link="maps" target="_blank" rel="noopener">Get Directions</a>
+          </article>
+
+          <div class="contact-stack">
+            <article class="card accent-blue contact-item reveal">
+              <div class="icon-badge"><span class="emoji" aria-hidden="true">💬</span></div>
+              <div>
+                <h3 class="card-title">WhatsApp</h3>
+                <a class="contact-link" href="#" data-link="whatsapp"><span data-config="whatsappDisplay">+92 3XX XXXXXXX</span></a>
+              </div>
+            </article>
+
+            <article class="card accent-purple contact-item reveal">
+              <div class="icon-badge"><span class="emoji" aria-hidden="true">📞</span></div>
+              <div>
+                <h3 class="card-title">Phone</h3>
+                <a class="contact-link" href="#" data-link="phone"><span data-config="phoneDisplay">03XX XXXXXXX</span></a>
+              </div>
+            </article>
+
+            <article class="card accent-red contact-item reveal">
+              <div class="icon-badge"><span class="emoji" aria-hidden="true">🕒</span></div>
+              <div>
+                <h3 class="card-title">Opening Hours</h3>
+                <p class="contact-text" data-config="hours">Daily: XX:XX AM – XX:XX PM</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo" aria-label="Game Nest Moro - back to top">
+            <svg class="icon logo-crown" aria-hidden="true"><use href="#i-crown"/></svg>
+            <span class="logo-text">
+              <span class="logo-main">GAME NEST</span>
+              <span class="logo-sub">MORO</span>
+            </span>
+          </a>
+          <p class="footer-tagline">Play. Compete. Dominate.</p>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gaming">Gaming</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Follow Us</h3>
+          <!-- Replace each href="#" with your real page link. Links left as "#" do nothing. -->
+          <div class="social">
+            <a href="#" aria-label="Facebook"><svg class="icon" width="22" height="22" aria-hidden="true"><use href="#i-facebook"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg class="icon" width="22" height="22" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg class="icon" width="22" height="22" aria-hidden="true"><use href="#i-youtube"/></svg></a>
+            <a href="#" aria-label="WhatsApp" data-link="whatsapp"><svg class="icon" width="22" height="22" aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer-bottom">&copy; <span id="year">2026</span> Game Nest Moro. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
